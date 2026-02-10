@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Portfolio page done by me </title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header class="header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">&lt;portfolio&gt;</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link nav-cta">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="kicker">Hi, I’m</p>
+          <h1 class="headline">
+            <span class="name">Amanda Eze</span>
+          </h1>
+          <p class="subhead">
+            Aspiring <span class="accent">Frontend Developer</span> |
+            Your vision, my code.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View my work →</a>
+            <a class="btn ghost" href="#contact">Let’s talk</a>
+          </div>
+
+          <div class="mini-tags">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Python</span>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="photo-card">
+            <!-- Replace with your own photo -->
+            <img src="assets/img/profile.jpg" alt="Profile photo" onerror="this.src='assets/img/placeholder.jpg'"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About Me</h2>
+          <p>
+            I’m an aspiring web developer who loves creating clean, responsive,
+            and visually appealing websites. I enjoy turning ideas into smooth,
+            interactive experiences using HTML, CSS, JavaScript (and Python when needed),  
+            PHP or other server-side scripting (such as ASP, JSP, NodeJS).
+          </p>
+        </div>
+
+        <div class="cards-3">
+          <article class="info-card">
+            <div class="icon">💻</div>
+            <h3>Clean & Semantic Code</h3>
+            <p>Well-structured HTML and reusable CSS components for maintainable builds.</p>
+          </article>
+
+          <article class="info-card">
+            <div class="icon">🎨</div>
+            <h3>Modern UI Styling</h3>
+            <p>Soft gradients, smooth spacing, and modern layouts inspired by real portfolios.</p>
+          </article>
+
+          <article class="info-card">
+            <div class="icon">⚡</div>
+            <h3>Interactive Components</h3>
+            <p>Simple animations, UI effects, and friendly interactions using JavaScript.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>
+            I create responsive, user-friendly websites that combine design with smooth functionality.
+          </p>
+        </div>
+
+        <div class="cards-3">
+          <article class="skill-card">
+            <h3>Static Website Development</h3>
+            <p>Fast-loading websites for portfolios, landing pages, and profiles.</p>
+            <div class="tags">
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+              <span class="pill">Responsive</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Single-Page Applications</h3>
+            <p>Modern app-like pages with smooth scrolling, sections, and interactions.</p>
+            <div class="tags">
+              <span class="pill">JavaScript</span>
+              <span class="pill">UI</span>
+              <span class="pill">UX</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Website Redesign & Optimization</h3>
+            <p>Improving design, performance, and readability for better user experience.</p>
+            <div class="tags">
+              <span class="pill">Clean UI</span>
+              <span class="pill">Speed</span>
+              <span class="pill">Accessibility</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Here are some projects. Add your links later (placeholders are ready).</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 1 -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/img/project1.jpg" alt="Project thumbnail" onerror="this.src='assets/img/placeholder.jpg'"/>
+            </div>
+            <div class="project-body">
+              <h3>School Website 1 (Commission)</h3>
+              <p>
+                A clean, informative site with sections and smooth layout. Great for school pages.
+              </p>
+              <div class="tags">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+              </div>
+
+              <!-- PUT YOUR LINK IN href="" -->
+              <a class="btn small" href="" target="_blank" rel="noopener">
+                View Project
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/img/project2.jpg" alt="Project thumbnail" onerror="this.src='assets/img/placeholder.jpg'"/>
+            </div>
+            <div class="project-body">
+              <h3>School Website 2 (Commission)</h3>
+              <p>
+                A responsive school site with clean sections and easy navigation.
+              </p>
+              <div class="tags">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+              </div>
+              <a class="btn small" href="" target="_blank" rel="noopener">View Project</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/img/project3.jpg" alt="Project thumbnail" onerror="this.src='assets/img/placeholder.jpg'"/>
+            </div>
+            <div class="project-body">
+              <h3>Intramurals Cultural Website (Commission)</h3>
+              <p>
+                A site that highlights events and information with a modern look.
+              </p>
+              <div class="tags">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+              </div>
+              <a class="btn small" href="" target="_blank" rel="noopener">View Project</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 4 -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/img/project4.jpg" alt="Project thumbnail" onerror="this.src='assets/img/placeholder.jpg'"/>
+            </div>
+            <div class="project-body">
+              <h3>Science Lesson Website (Commission)</h3>
+              <p>
+                Educational website design to present lessons and modules clearly.
+              </p>
+              <div class="tags">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+                <span class="pill">JavaScript</span>
+              </div>
+              <a class="btn small" href="" target="_blank" rel="noopener">View Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Fill this out (frontend works). Later you can connect it to Python/Flask.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="contact-form" id="contactForm">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+            </label>
+
+            <button class="btn primary" type="submit">Send Message</button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+
+          <div class="contact-side">
+            <div class="contact-card">
+              <h3>Quick Links</h3>
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#projects">Projects</a>
+              <a href="#top">Back to top</a>
+            </div>
+
+            <div class="contact-card">
+              <h3>Connect</h3>
+
+              <!-- Put your links later -->
+              <div class="socials">
+                <a href="" target="_blank" rel="noopener">GitHub</a>
+                <a href="" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="" target="_blank" rel="noopener">Email</a>
+              </div>
+
+              <p class="small-muted">
+                Tip: paste your hyperlinks in the <code>href=""</code> parts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>Your Name</strong>
+        <p class="small-muted">Aspiring Frontend Developer</p>
+      </div>
+      <p class="small-muted">© <span id="year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
